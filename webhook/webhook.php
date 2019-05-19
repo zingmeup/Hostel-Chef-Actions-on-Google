@@ -36,7 +36,7 @@ function foodTimingsResolver(){
 }
 
 function getMenuForParameters(){
-  require $_SERVER['DOCUMENT_ROOT']."/actions/hostelchef/v0.2/dbconmenu.php";
+  require $_SERVER['DOCUMENT_ROOT']."/way-to-db-connection";
   $stmtgetMenuForParam->execute();
   $stmtgetMenuForParam->setFetchMode(PDO::FETCH_ASSOC);
   $result=$stmtgetMenuForParam->fetchAll();
@@ -54,7 +54,7 @@ function getMenuForParameters(){
   return TRUE;
 }
 function prepareMenuResponse(){
-  require $_SERVER['DOCUMENT_ROOT']."/way-to-db-connection-file";
+  $textResponse="Getting your ".$GLOBALS['parameters']['food_timing'];
   $speechResponse="";
 
   if (count($GLOBALS['menu'])>1) {
@@ -68,10 +68,17 @@ function prepareMenuResponse(){
     }
     $GLOBALS['response']['payload']['google']['richResponse']['items'][0]['simpleResponse']['displayText']=$textResponse;
     $GLOBALS['response']['payload']['google']['richResponse']['items'][0]['simpleResponse']['textToSpeech']=$speechResponse;
-    //$GLOBALS['response']['payload']['google']['expectUserResponse']=false;
+    $GLOBALS['response']['payload']['google']['expectUserResponse']=true;
   }else{
 
   }
+
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][0]['title']='breakfast';
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][1]['title']='lunch';
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][2]['title']='snack';
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][3]['title']='dinner';
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][4]['title']='tomorrow';
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][5]['title']='about';
 }
 
 function resolveItemSearchParameters(){
@@ -84,7 +91,7 @@ function resolveItemSearchParameters(){
 
 
 function getServingsForItem(){
-  require $_SERVER['DOCUMENT_ROOT']."/way-to-db-connection-file";
+  require $_SERVER['DOCUMENT_ROOT']."/way-to-db-connection";
   $stmtgetItemForItemId->execute();
   $stmtgetItemForItemId->setFetchMode(PDO::FETCH_ASSOC);
   $result=$stmtgetItemForItemId->fetchAll();
@@ -171,12 +178,19 @@ function prepareServingsResponse(){
     $speechResponse.="Only on ".$days[$GLOBALS['servings'][0]['day_id']];
     $GLOBALS['response']['payload']['google']['richResponse']['items'][0]['simpleResponse']['displayText']=$textResponse;
     $GLOBALS['response']['payload']['google']['richResponse']['items'][0]['simpleResponse']['textToSpeech']=$speechResponse;
-    
-    //$GLOBALS['response']['payload']['google']['expectUserResponse']=false;
+    $GLOBALS['response']['payload']['google']['expectUserResponse']=true;
 
   }
 
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][0]['title']='samosa';
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][1]['title']='milk';
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][2]['title']='pastry';
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][3]['title']='paneer';
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][4]['title']='chicken';
+  $GLOBALS['response']['payload']['google']['richResponse']['suggestions'][5]['title']='help';
+
 }
+
 
 
 #Start of Program
