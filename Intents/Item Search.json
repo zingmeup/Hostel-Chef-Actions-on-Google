@@ -1,0 +1,307 @@
+{
+  "id": "4b54900c-b5f2-4c7a-b075-7904da3fabfa",
+  "name": "Item Search",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d36b7e8d-5386-4a9b-95ce-58358927b6cf",
+          "required": true,
+          "dataType": "@items",
+          "name": "items",
+          "value": "$items",
+          "prompts": [
+            "What item are you looking for?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "3c04557d-492a-4f4d-9a15-34c49ca60096",
+          "required": false,
+          "dataType": "@gender",
+          "name": "gender",
+          "value": "$gender",
+          "prompts": [],
+          "defaultValue": "male",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "When is Pastry served?"
+            },
+            {
+              "title": "When do we get Chole?"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": "Let me see.. $items.original"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "5827c42b-0ef3-4cdb-b095-2decc0052c7e",
+      "data": [
+        {
+          "text": "when is "
+        },
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        },
+        {
+          "text": "  served for "
+        },
+        {
+          "text": "girls",
+          "alias": "gender",
+          "meta": "@gender",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e04c9034-cbc8-48ee-90ac-ca9c798a405a",
+      "data": [
+        {
+          "text": "girls",
+          "alias": "gender",
+          "meta": "@gender",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "13d67718-c5df-4d0a-861c-25be75630bd0",
+      "data": [
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "girls",
+          "alias": "gender",
+          "meta": "@gender",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d56e0eaa-3122-437d-a48c-6c3c5012b26c",
+      "data": [
+        {
+          "text": "when is "
+        },
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        },
+        {
+          "text": " served"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4d2c62be-fe07-4800-ba61-a6193badbb19",
+      "data": [
+        {
+          "text": "when do we get "
+        },
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "06ebf4b8-6013-4b4a-88d4-074d7d185d7e",
+      "data": [
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6d4ae839-7910-497b-b500-37d4138fa6cd",
+      "data": [
+        {
+          "text": "when do we have "
+        },
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "isAuto": false
+    },
+    {
+      "id": "5f35b3fa-2a35-4cfe-81cb-8f77d0142742",
+      "data": [
+        {
+          "text": "when do we have "
+        },
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "girls",
+          "alias": "gender",
+          "meta": "@gender",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "85dd76fc-6487-46f2-a7af-bf291bb0cb40",
+      "data": [
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        },
+        {
+          "text": " is when"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6232c303-27ec-4500-8820-8ee0198aeda1",
+      "data": [
+        {
+          "text": "When is "
+        },
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4b4a2b12-a7c8-40e0-866e-1f485d940d07",
+      "data": [
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        },
+        {
+          "text": " kab milta hai"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "52718b7c-6928-4d93-a9dd-5e80c282e3dc",
+      "data": [
+        {
+          "text": "banana",
+          "alias": "items",
+          "meta": "@items",
+          "userDefined": false
+        },
+        {
+          "text": " kab hai"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

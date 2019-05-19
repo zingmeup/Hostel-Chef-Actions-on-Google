@@ -1,0 +1,149 @@
+{
+  "id": "2ca96e24-15e2-42da-ab25-3846f12cb3a3",
+  "name": "How To Use",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "customizeAudio": true,
+          "ssml": "<speak>\n  Hey! I'm here to help you! \n  <break time=\"1000ms\"/>\n  You can try a lot of things on Hostel Chef.\n  \n  <prosody rate=\"slow\">It is very simple and easy to use.</prosody>\n  \n\t<break time=\"500ms\"/>\n  Want to know what is in breakfast today?\n  <break time=\"500ms\"/>\n  Try saying, \n  <prosody volume=\"loud\">What's in the breakfast today?.</prosody>\n  <prosody rate=\"fast\">try them out for lunch, snacks and dinner.</prosody>\n  \n  To get Girl's Hostel specific Menu,\n  <break time=\"500ms\"/>\n  Try saying, \n  <prosody volume=\"loud\">Breakfast today for girls?.</prosody>\n  \n  <break time=\"1000ms\"/>\n  To know what is in the lunch tomorrow or day after?\n  <break time=\"500ms\"/>\n  Try saying, \n  <prosody volume=\"loud\">What's in the lunch tomorrow?.</prosody>\n  <prosody rate=\"slow\">or</prosody>\n  <prosody >day after?</prosody>\n  \n  <break time=\"1000ms\"/>\n  To know what is in the dinner on Friday?\n  <break time=\"500ms\"/>\n  Try saying, \n  <prosody volume=\"loud\">What's in the dinner on Friday?.</prosody>\n  \n  <prosody rate=\"slow\">It is as simple as this!.</prosody>\n  \n  <break time=\"1000ms\"/>\n  To know when is milk served?\n  <break time=\"500ms\"/>\n  Try saying, \n  <prosody volume=\"loud\">When is milk served?.</prosody>\n  <prosody rate=\"fast\">or simply say.</prosody>\n  <prosody rate=\"slow\">Milk.</prosody>\n  \n  \n  <prosody pitch=\"low\">Just say anything and we will be back will a savage response a day after.</prosody>\n  <prosody rate=\"slow\">Hostel Chef, </prosody><break time=\"500ms\"/>\n  <prosody rate=\"fast\">I'll be right here when you need me. </prosody>\n</speak>",
+          "displayText": "Hey I'm here to help you!\nYou can try a lot of things on Hostel Chef.\nIt is very simple and easy to use.\n\nWant to know what is in breakfast today? \nTry saying, \n\"What's in the breakfast today?\"\n try them out for lunch, snacks & dinner. \n\nTo get Girl's Hostel specific Menu, \nTry saying, \n\"Breakfast today for girls?\"\n\nTo know what is in the lunch tomorrow or day after?\nTry saying, \n\"What's in the lunch tomorrow?\" or \"day after?\"\n\nTo know what is in the dinner on Friday? \nTry saying, \n\"What's in the dinner on Friday?\"\n\nIt is as simple as this!\n\nTo know when is milk served? \nTry saying, \n\"When is milk served?\" or simply say, \"Milk\".\n  \n  \nHostel Chef, \nI'll be right here when you need me."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Who is the developer?"
+            },
+            {
+              "title": "What's in the breakfast?"
+            },
+            {
+              "title": "When is milk served?"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "99f0c354-e367-4daa-b3a8-e1ef3c0a46c5",
+      "data": [
+        {
+          "text": "what is this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "dc94adb5-c698-46f4-bff2-8bd8430616f9",
+      "data": [
+        {
+          "text": "kya hai yeh"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4071fdf7-a24a-4d60-9eb9-e5ddabf53129",
+      "data": [
+        {
+          "text": "i need help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "eee98f91-5c89-441f-8a01-fd1a0174a98f",
+      "data": [
+        {
+          "text": "help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "69e51f9e-f4fd-4621-b0d1-fd8fa54f7f45",
+      "data": [
+        {
+          "text": "how to"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "330edc50-128a-4f13-a167-1b66b5b67770",
+      "data": [
+        {
+          "text": "what to do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2b4040de-4208-405b-aaff-6185f7b5a041",
+      "data": [
+        {
+          "text": "what can you do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "425d8d7d-303d-458c-ba25-76296d295263",
+      "data": [
+        {
+          "text": "How to use"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

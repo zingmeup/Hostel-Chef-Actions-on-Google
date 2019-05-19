@@ -1,0 +1,224 @@
+{
+  "id": "3e0b0873-10a3-4caa-8d8d-781c0e0d2325",
+  "name": "Developer Info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Deepak Yadav",
+          "subtitle": "Software Engineer",
+          "formattedText": "Student Chandigarh University.\nDeveloper Student Club - Lead",
+          "image": {
+            "url": "https://dsccu.in/images/team/deepak.jpeg",
+            "accessibilityText": "Deepak Yadav"
+          },
+          "buttons": [
+            {
+              "title": "Visit DSC Website",
+              "openUrlAction": {
+                "url": "https://dsccu.in/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            },
+            {
+              "title": "Help"
+            },
+            {
+              "title": "breakfast"
+            },
+            {
+              "title": "lunch"
+            },
+            {
+              "title": "dinner"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": "You may know me already!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "4ef6754f-7e6a-461e-aa29-0fceb7d15a26",
+      "data": [
+        {
+          "text": "about developer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b5d64181-ec29-4b6a-a7ca-984e99bb291f",
+      "data": [
+        {
+          "text": "about"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e1e15d3a-8b3b-444c-9682-cbdfe9f5ae3d",
+      "data": [
+        {
+          "text": "who are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ef38f0b8-1de9-4110-8d26-0ff4e9d7272c",
+      "data": [
+        {
+          "text": "Who engineered this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cc08be18-7d59-4925-8bdb-aee55f840861",
+      "data": [
+        {
+          "text": "Who is the Owner?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2e1fa48c-c9a1-40e5-a0cf-d4410b4d7355",
+      "data": [
+        {
+          "text": "Who is the developer?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "aa187d09-73df-4abb-b234-03d42a110f57",
+      "data": [
+        {
+          "text": "Owner"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3e165e64-0888-49aa-af2d-1a864e822840",
+      "data": [
+        {
+          "text": "who is this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ee2b54f4-ff10-422e-87e0-a801899fbc5e",
+      "data": [
+        {
+          "text": "DSC"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f2698e8e-196e-4d76-8740-b33895f089ad",
+      "data": [
+        {
+          "text": "Developer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "53a2e502-8049-4ff9-a1ba-8db20cbd8f71",
+      "data": [
+        {
+          "text": "Who built this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "58f7ca9f-0379-4d8e-93fb-d4f93124073d",
+      "data": [
+        {
+          "text": "Deepak Yadav"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c608a81b-5706-448e-8083-d94564a8cbbf",
+      "data": [
+        {
+          "text": "Developer Student Club"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

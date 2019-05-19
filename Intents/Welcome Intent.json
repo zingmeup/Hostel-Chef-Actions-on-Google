@@ -1,0 +1,91 @@
+{
+  "id": "b3e41524-a3b3-4d1d-a782-192fa33d8457",
+  "name": "Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5481d7d4-dea7-4de9-8a24-230d039ed4f9",
+          "required": false,
+          "dataType": "@food_timing",
+          "name": "food_timing",
+          "value": "$food_timing",
+          "isList": false
+        },
+        {
+          "id": "6f5b270a-9e05-4b80-b851-b2a201af3159",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "4eeb6725-1e9e-4242-aaa5-66b5dc35d430",
+          "required": false,
+          "dataType": "@gender",
+          "name": "gender",
+          "value": "$gender",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            },
+            {
+              "title": "breakfast"
+            },
+            {
+              "title": "lunch"
+            },
+            {
+              "title": "snacks"
+            },
+            {
+              "title": "dinner"
+            },
+            {
+              "title": "tomorrow"
+            },
+            {
+              "title": "help"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": "Hey! How can I help?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

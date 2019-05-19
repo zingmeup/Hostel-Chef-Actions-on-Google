@@ -1,0 +1,461 @@
+{
+  "id": "d5b49151-6ab8-4add-92e8-e4f3bd680bfc",
+  "name": "items",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "49",
+      "synonyms": [
+        "49",
+        "Rice",
+        "chawal"
+      ]
+    },
+    {
+      "value": "9",
+      "synonyms": [
+        "9",
+        "Samosa",
+        "samosas"
+      ]
+    },
+    {
+      "value": "8",
+      "synonyms": [
+        "8",
+        "Safed Lobia"
+      ]
+    },
+    {
+      "value": "6",
+      "synonyms": [
+        "6",
+        "Puri",
+        "poori",
+        "pudi"
+      ]
+    },
+    {
+      "value": "13",
+      "synonyms": [
+        "13",
+        "Daliya",
+        "dariya"
+      ]
+    },
+    {
+      "value": "3",
+      "synonyms": [
+        "3",
+        "Pastry",
+        "cake",
+        "cakes",
+        "pastry"
+      ]
+    },
+    {
+      "value": "12",
+      "synonyms": [
+        "12",
+        "Gulab Jamun"
+      ]
+    },
+    {
+      "value": "26",
+      "synonyms": [
+        "26",
+        "Muffins"
+      ]
+    },
+    {
+      "value": "52",
+      "synonyms": [
+        "52",
+        "Salad",
+        "kheera",
+        "kheere"
+      ]
+    },
+    {
+      "value": "11",
+      "synonyms": [
+        "11",
+        "Aloo Nutri"
+      ]
+    },
+    {
+      "value": "7",
+      "synonyms": [
+        "7",
+        "Aloo Sabzi",
+        "potato"
+      ]
+    },
+    {
+      "value": "24",
+      "synonyms": [
+        "24",
+        "Kadhai Pakoda",
+        "kadhi",
+        "kadhi pakoda",
+        "kadhi dal"
+      ]
+    },
+    {
+      "value": "35",
+      "synonyms": [
+        "35",
+        "Mix Parantha"
+      ]
+    },
+    {
+      "value": "22",
+      "synonyms": [
+        "22",
+        "Moong sabut Dal",
+        "moong dal",
+        "moong"
+      ]
+    },
+    {
+      "value": "43",
+      "synonyms": [
+        "43",
+        "Jeera Rice",
+        "jeera"
+      ]
+    },
+    {
+      "value": "2",
+      "synonyms": [
+        "2",
+        "Channa Dal",
+        "chana",
+        "channa",
+        "chana dal"
+      ]
+    },
+    {
+      "value": "23",
+      "synonyms": [
+        "23",
+        "Onion Parantha",
+        "lassan",
+        "onion"
+      ]
+    },
+    {
+      "value": "47",
+      "synonyms": [
+        "47",
+        "Seasonal Veg"
+      ]
+    },
+    {
+      "value": "1",
+      "synonyms": [
+        "1",
+        "Aloo Parantha",
+        "Allu paratha",
+        "allu parantha"
+      ]
+    },
+    {
+      "value": "27",
+      "synonyms": [
+        "27",
+        "White Channa",
+        "safed chane"
+      ]
+    },
+    {
+      "value": "10",
+      "synonyms": [
+        "10",
+        "Dal Makhni",
+        "makhni",
+        "dal makhani"
+      ]
+    },
+    {
+      "value": "15",
+      "synonyms": [
+        "15",
+        "Banana",
+        "kela",
+        "bananas"
+      ]
+    },
+    {
+      "value": "4",
+      "synonyms": [
+        "4",
+        "Malka Masoor",
+        "masoor",
+        "masoor dal"
+      ]
+    },
+    {
+      "value": "21",
+      "synonyms": [
+        "21",
+        "Paneer"
+      ]
+    },
+    {
+      "value": "37",
+      "synonyms": [
+        "37",
+        "Namkeen Bhujia",
+        "bhujia",
+        "namkeen"
+      ]
+    },
+    {
+      "value": "39",
+      "synonyms": [
+        "39",
+        "Manchurian"
+      ]
+    },
+    {
+      "value": "53",
+      "synonyms": [
+        "53",
+        "Pickle",
+        "aachar"
+      ]
+    },
+    {
+      "value": "17",
+      "synonyms": [
+        "17",
+        "Jam"
+      ]
+    },
+    {
+      "value": "51",
+      "synonyms": [
+        "51",
+        "Butter",
+        "makkhan",
+        "malai"
+      ]
+    },
+    {
+      "value": "5",
+      "synonyms": [
+        "5",
+        "Sewayian",
+        "semiya",
+        "seviya"
+      ]
+    },
+    {
+      "value": "36",
+      "synonyms": [
+        "36",
+        "Black Channa",
+        "kale chane"
+      ]
+    },
+    {
+      "value": "38",
+      "synonyms": [
+        "38",
+        "Fried Rice",
+        "fried"
+      ]
+    },
+    {
+      "value": "41",
+      "synonyms": [
+        "41",
+        "Chole Bhature",
+        "chole",
+        "bhature"
+      ]
+    },
+    {
+      "value": "46",
+      "synonyms": [
+        "46",
+        "Malka Masoor Dal"
+      ]
+    },
+    {
+      "value": "19",
+      "synonyms": [
+        "19",
+        "Biscuits"
+      ]
+    },
+    {
+      "value": "28",
+      "synonyms": [
+        "28",
+        "Rasgulla"
+      ]
+    },
+    {
+      "value": "33",
+      "synonyms": [
+        "33",
+        "Nutri Matar",
+        "nutri"
+      ]
+    },
+    {
+      "value": "34",
+      "synonyms": [
+        "34",
+        "Suji Halwa",
+        "halwa",
+        "suji"
+      ]
+    },
+    {
+      "value": "40",
+      "synonyms": [
+        "40",
+        "Moong Dhulli Dal",
+        "moong"
+      ]
+    },
+    {
+      "value": "42",
+      "synonyms": [
+        "42",
+        "Mix Dal"
+      ]
+    },
+    {
+      "value": "45",
+      "synonyms": [
+        "45",
+        "Egg Curry"
+      ]
+    },
+    {
+      "value": "48",
+      "synonyms": [
+        "48",
+        "Chappati",
+        "roti",
+        "parantha",
+        "paratha",
+        "chapati"
+      ]
+    },
+    {
+      "value": "20",
+      "synonyms": [
+        "20",
+        "Chicken"
+      ]
+    },
+    {
+      "value": "25",
+      "synonyms": [
+        "25",
+        "Aloo Matar"
+      ]
+    },
+    {
+      "value": "29",
+      "synonyms": [
+        "29",
+        "Pav Bhaji",
+        "pav",
+        "bhaji"
+      ]
+    },
+    {
+      "value": "44",
+      "synonyms": [
+        "44",
+        "Bread Pakoda"
+      ]
+    },
+    {
+      "value": "14",
+      "synonyms": [
+        "14",
+        "Boiled Egg",
+        "egg",
+        "anda",
+        "eggs"
+      ]
+    },
+    {
+      "value": "32",
+      "synonyms": [
+        "32",
+        "Rajma"
+      ]
+    },
+    {
+      "value": "30",
+      "synonyms": [
+        "30",
+        "Arhal Dal",
+        "arhal"
+      ]
+    },
+    {
+      "value": "31",
+      "synonyms": [
+        "31",
+        "Namak Pare"
+      ]
+    },
+    {
+      "value": "50",
+      "synonyms": [
+        "50",
+        "Raita",
+        "curd",
+        "dahi"
+      ]
+    },
+    {
+      "value": "55",
+      "synonyms": [
+        "55",
+        "Tea",
+        "chae"
+      ]
+    },
+    {
+      "value": "16",
+      "synonyms": [
+        "16",
+        "Toast",
+        "bread",
+        "breads",
+        "bread butter"
+      ]
+    },
+    {
+      "value": "18",
+      "synonyms": [
+        "18",
+        "Black Dal Tadka",
+        "kali dal",
+        "black dal"
+      ]
+    },
+    {
+      "value": "54",
+      "synonyms": [
+        "54",
+        "Milk",
+        "dudh"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

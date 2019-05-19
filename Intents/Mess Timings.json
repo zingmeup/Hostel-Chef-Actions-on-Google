@@ -1,0 +1,162 @@
+{
+  "id": "befa8d54-be90-43c4-a903-ddf12abfc06f",
+  "name": "Mess Timings",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b8ec7112-6916-4368-b61a-f52607638018",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "dfbf9da4-4b13-4a79-b6cf-b17804fad3cb",
+          "required": false,
+          "dataType": "@food_timing",
+          "name": "food_timing",
+          "value": "$food_timing",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "customizeAudio": true,
+          "ssml": "<speak>\n  Here are the mess timings,\n  \n  <break/>\nBreakfast: <say-as interpret-as=\"time\" format=\"hms\">07:30</say-as>\n  to \n  <say-as interpret-as=\"time\" format=\"hms\">09:00</say-as>\n  <break/>\n  Lunch: <say-as interpret-as=\"time\" format=\"hms\">12:00</say-as>\n  to \n  <say-as interpret-as=\"time\" format=\"hms\">13:45</say-as>\n  \n  <break/>\n  Snacks: <say-as interpret-as=\"time\" format=\"hms\">16:30</say-as>\n  to \n  <say-as interpret-as=\"time\" format=\"hms\">17:15</say-as>\n  \n  <break/>\n  Dinner: <say-as interpret-as=\"time\" format=\"hms\">19:30</say-as>\n  to \n  <say-as interpret-as=\"time\" format=\"hms\">21:00</say-as>\n  <break/>\n  <break/>\n  On Holidays,  \n  \n  <break/>\nBreakfast: <say-as interpret-as=\"time\" format=\"hms\">08:00</say-as>\n  to \n  <say-as interpret-as=\"time\" format=\"hms\">09:00</say-as>\n  \n  <break/>\n  Lunch: <say-as interpret-as=\"time\" format=\"hms\">12:30</say-as>\n  to \n  <say-as interpret-as=\"time\" format=\"hms\">13:45</say-as>\n \n</speak>",
+          "displayText": "Here are the mess timings,\n\nBreakfast: 07:30 - 09:00\nLunch : 12:00 - 13:45\nSnacks: 16:30 - 17:15\nDinner:  19:30 - 21:00\n\nOn Holidays, \nBreakfast: 08:00 - 09:00\nLunch : 12:30 - 13:45"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "Help"
+            },
+            {
+              "title": "About developer"
+            },
+            {
+              "title": "breakfast"
+            },
+            {
+              "title": "lunch"
+            },
+            {
+              "title": "dinner"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "e2b8e516-6bf5-41d4-bf24-6b62f52a647f",
+      "data": [
+        {
+          "text": "timing for "
+        },
+        {
+          "text": "snacks",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "isAuto": false
+    },
+    {
+      "id": "3c9b03fb-aee6-46aa-a65b-efa5e6c31e1c",
+      "data": [
+        {
+          "text": "mess khuli hai?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "959e49a7-4a76-4294-942b-22381d5a5d35",
+      "data": [
+        {
+          "text": "when is mess open?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d2c3f710-443a-4d2d-b150-b5b0572703d5",
+      "data": [
+        {
+          "text": "what is the time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c3213291-3d98-4244-abad-4f91e8362959",
+      "data": [
+        {
+          "text": "what are the timings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "45810cb2-44e6-4c69-9964-9eeb54744ae0",
+      "data": [
+        {
+          "text": "is mess open "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

@@ -1,0 +1,119 @@
+{
+  "id": "2082a17a-2386-42fe-b914-28f80db98d82",
+  "name": "Exit Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I'll be right here if you need me.",
+            "I'll be right here if you need me. Talk to Hostel Chef anytime.",
+            "Say my name and I'll be back.",
+            "Say my name and I'll be here."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "e020b941-e7ae-41dd-8015-8e5733d8126b",
+      "data": [
+        {
+          "text": "cancel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "533d870b-a3d8-48ba-95a7-1d72531ec712",
+      "data": [
+        {
+          "text": "thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "21316041-0f62-4f9b-8816-4cc53c33514f",
+      "data": [
+        {
+          "text": "thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4336fcb0-0ee4-4ff1-81d5-6997c6530ef5",
+      "data": [
+        {
+          "text": "close"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ede9cf05-a655-495f-9441-5a5e614da70f",
+      "data": [
+        {
+          "text": "exit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b595e0c2-2030-478f-9790-b3b29d46b9d8",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7c3cd6aa-c513-413c-b938-1d450e23ccc2",
+      "data": [
+        {
+          "text": "bye bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "templates": []
+}

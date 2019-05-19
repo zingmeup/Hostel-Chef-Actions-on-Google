@@ -1,0 +1,390 @@
+{
+  "id": "93a58c26-a116-49bc-ab97-fdf814a13f74",
+  "name": "Menu Search",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b2e0ca63-b00d-4609-902b-ec93f12527e8",
+          "required": false,
+          "dataType": "@food_timing",
+          "name": "food_timing",
+          "value": "$food_timing",
+          "prompts": [
+            "What time do you want? breakfast, lunch, snacks or dinner?",
+            "breakfast, lunch, snacks or dinner?",
+            "What time do you want?"
+          ],
+          "defaultValue": "",
+          "isList": false
+        },
+        {
+          "id": "bf702a4b-7735-4ce5-909f-7c1f22184d37",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            "Which day are you looking about?"
+          ],
+          "defaultValue": "",
+          "isList": false
+        },
+        {
+          "id": "4275c8f0-3119-460c-bfeb-e1b821811c49",
+          "required": false,
+          "dataType": "@gender",
+          "name": "gender",
+          "value": "$gender",
+          "prompts": [],
+          "defaultValue": "",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "suggestions": [
+            {
+              "title": "breakfast"
+            },
+            {
+              "title": "lunch"
+            },
+            {
+              "title": "dinner"
+            },
+            {
+              "title": "tomorrow"
+            },
+            {
+              "title": "help"
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": "Okay, $date.original for $food_timing we have..."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "e77bc665-2b83-4338-afbb-ff926257557a",
+      "data": [
+        {
+          "text": "breakfast",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        },
+        {
+          "text": " main kya hai?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f5f469f6-66dc-4b79-86ac-cec8c73860c9",
+      "data": [
+        {
+          "text": "khane main kya hai?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6f2aacba-1193-4351-90a5-d42be008ee68",
+      "data": [
+        {
+          "text": "What's in "
+        },
+        {
+          "text": "lunch",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9f1e2bbe-5f37-4f4e-9826-262d6417564f",
+      "data": [
+        {
+          "text": "what is "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": "'s "
+        },
+        {
+          "text": "breakfast",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "10b3ae40-af72-4c52-b921-51ca1eae1714",
+      "data": [
+        {
+          "text": "what's the menu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d7226c14-2ff4-47b6-be46-a7a75dcabee9",
+      "data": [
+        {
+          "text": "what food is being served"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1c561bae-5834-4813-a76d-1cc6a4cff054",
+      "data": [
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1ea10350-8f92-49b5-9d90-22338772a9b4",
+      "data": [
+        {
+          "text": "breakfast",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        },
+        {
+          "text": " menu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "acdb48c0-e34d-477e-827a-928feb7f94d6",
+      "data": [
+        {
+          "text": "what's for "
+        },
+        {
+          "text": "breakfast",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "159f8f37-8776-4841-a395-3d40712af999",
+      "data": [
+        {
+          "text": "what's in the mess"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "95fe1b04-07fe-47e4-9cae-9dec1337bc3f",
+      "data": [
+        {
+          "text": "what do we have now?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a64c6863-8afd-417c-99a6-ae66808e7f98",
+      "data": [
+        {
+          "text": "breakfast",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "boys",
+          "alias": "gender",
+          "meta": "@gender",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0be29d9b-f244-4702-b518-1dd20e98bcc4",
+      "data": [
+        {
+          "text": "breakfast",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "boys",
+          "alias": "gender",
+          "meta": "@gender",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "360f840f-8062-44e1-9218-636675b8a929",
+      "data": [
+        {
+          "text": "breakfast",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3fc647e5-2efa-4dac-9a97-85a83b373760",
+      "data": [
+        {
+          "text": "what is in "
+        },
+        {
+          "text": "breakfast",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e4805f4a-ef3b-446a-82b8-bba7804a45c6",
+      "data": [
+        {
+          "text": "breakfast",
+          "alias": "food_timing",
+          "meta": "@food_timing",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

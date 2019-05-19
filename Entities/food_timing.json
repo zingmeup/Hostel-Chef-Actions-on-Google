@@ -1,0 +1,45 @@
+{
+  "id": "1d5e72de-52db-42f2-a4d9-8185390a2386",
+  "name": "food_timing",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "snacks",
+      "synonyms": [
+        "snacks",
+        "evening",
+        "light",
+        "shaam"
+      ]
+    },
+    {
+      "value": "breakfast",
+      "synonyms": [
+        "breakfast",
+        "break fast",
+        "subha",
+        "nashta",
+        "morning"
+      ]
+    },
+    {
+      "value": "lunch",
+      "synonyms": [
+        "lunch",
+        "afternoon",
+        "dopeher"
+      ]
+    },
+    {
+      "value": "dinner",
+      "synonyms": [
+        "dinner",
+        "night"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}
